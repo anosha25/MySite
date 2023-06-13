@@ -1,3 +1,5 @@
+//finished developing shape 
+
 var canvas;
 var ctx;
 var w = 1000;
@@ -67,7 +69,6 @@ setUpCanvas();
     ctx.lineTo(w/2 - 150, h/2);
     ctx.moveTo(w/2 - 30, h/2 + 30);
     ctx.lineTo(w/2 - 150, h/2 + 30);
-   
     ctx.stroke();
 
 
